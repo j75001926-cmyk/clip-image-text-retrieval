@@ -1,0 +1,31 @@
+# data
+data/
+flickr30k-images/
+flickr_annotations_30k.csv
+
+# checkpoints / models
+*.pt
+*.pth
+*.safetensors
+outputs/
+outputs_*/
+model/
+
+# FAISS / features
+demo_faiss/
+*.index
+*.npy
+
+# cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.cache/
+
+# logs
+*.log
+wandb/
+runs/
+
+# system
+.DS_Store

@@ -1,0 +1,5 @@
+Method,T2I R@1,T2I R@5,T2I R@10,I2T R@1,I2T R@5,I2T R@10,Mean Recall
+CLIP Baseline,66.68,88.38,93.12,84.4,96.2,98.3,87.85
++ Adapter Finetune,69.76,90.42,94.76,86.8,96.4,98.6,89.46
++ LoRA Finetune,73.52,92.88,95.92,89.7,97.2,98.8,91.34
+ LoRA + Hard Negative,74.12,92.64,95.76,89.3,97.7,98.9,91.4
