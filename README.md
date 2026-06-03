@@ -3,7 +3,7 @@
 This project implements an image-text retrieval system based on OpenCLIP. It supports zero-shot CLIP retrieval, LoRA-based parameter-efficient fine-tuning, hard negative training, FAISS indexing, and a Gradio demo for text-to-image search.
 
 The project is designed as a multimodal retrieval project for internship preparation, focusing on contrastive learning, CLIP, Recall@K evaluation, hard negative mining, and retrieval system deployment.
-
+![Gradio Demo](assets/demo_gradio_orange_hat.png)
 ## 1. Project Overview
 
 Traditional CLIP-style dual-encoder retrieval relies on global image-text embeddings. While this is efficient, it may fail on fine-grained descriptions involving attributes, colors, clothing, actions, or visually similar negative samples.
